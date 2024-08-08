@@ -1,0 +1,61 @@
+section {
+
+    animation: animateBg 25s linear infinite;
+}
+
+/* @keyframes animateBg{
+    100%{
+        filter:hue-rotate(360deg);
+    }
+}   */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../assets/backgrounds/c5.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ecf0f1;
+
+}
+
+tr:nth-child(odd) {
+    background-color: #93cce79c;
+    color: white;
+}
+
+tr:hover {
+    background-color: #86d8f194;
+    color: white;
+}
+
+.insert-form,
+.update-form {
+    margin-top: 20px;
+}
+
+.insert_input {
+    margin-left: 20px;
+}
